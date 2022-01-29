@@ -6,7 +6,9 @@ import android.annotation.SuppressLint;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
+import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -33,6 +35,8 @@ public class MainActivity extends AppCompatActivity {
                (1)).show();
     }
 
+    ImageView imgV;
+    Button btnClick;
 
 
     @Override
@@ -40,6 +44,12 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        imgV = findViewById(R.id.imgV);
+        btnClick = findViewById(R.id.btnClick);
 
+        btnClick.setOnClickListener(view -> {
+            imgV.setImageResource(R.drawable.ic_launcher_background);
+        });
     }
+
 }

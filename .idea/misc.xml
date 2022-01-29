@@ -3,7 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/BARNAME/ANDROID/5-Android178/3-HelloWorld/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/BARNAME/ANDROID/1-Android/Android173.5HoursProject/3-HelloWorld/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.17407407407407408" />
+        <entry key="..\:/BARNAME/ANDROID/1-Android/Android173.5HoursProject/3-HelloWorld/app/src/main/res/drawable/ic_launcher_background.xml" value="0.17407407407407408" />
+        <entry key="..\:/BARNAME/ANDROID/1-Android/Android173.5HoursProject/3-HelloWorld/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/BARNAME/ANDROID/5-Android178/3-HelloWorld/app/src/main/res/layout/activity_main.xml" value="0.2" />
         <entry key="..\:/BARNAME/ANDROID/5-Android178/3HelloWorld/app/src/main/res/layout/activity_main.xml" value="0.196875" />
       </map>
     </option>
