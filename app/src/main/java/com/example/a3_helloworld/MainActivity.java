@@ -37,8 +37,11 @@ public class MainActivity extends AppCompatActivity {
 
     ImageView imgV;
     Button btnClick;
+    int[] images = {R.drawable.ic_launcher_background,R.drawable.flower};
+    int[] next = {0,1};
 
 
+    @SuppressLint("ResourceType")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -48,7 +51,11 @@ public class MainActivity extends AppCompatActivity {
         btnClick = findViewById(R.id.btnClick);
 
         btnClick.setOnClickListener(view -> {
-            imgV.setImageResource(R.drawable.ic_launcher_background);
+            if (view.getId() == R.drawable.ic_launcher_background ) {
+                imgV.setImageResource(R.drawable.flower);
+            } else {
+                imgV.setImageResource(R.drawable.ic_launcher_background);
+            }
         });
     }
 
